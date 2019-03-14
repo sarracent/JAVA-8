@@ -12,7 +12,7 @@ public class Sintaxis {
 			return (n1 + n2)/2 + a;
 		};*/
 		Operacion operacion = (n1, n2) -> (n1+n2) / 2;
-		return operacion.calcularPromedio(2, 3);	
+		return operacion.calcular(2, 3);	
 	}
 
 	public static void main(String[] args) {
